@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mso Regression Packs" >
+ <test name="Test 1" >
+ 
+  <classes>
+  
+   <class name="com.tests.Test.LoginTest" /> 
+    
+  </classes>
+  
+ </test> 
+ 
+ <test name="Test 2" >
+ 
+  <classes>
+  
+   <class name="com.tests.Test.HomeScreenTest" /> 
+   
+  </classes>
+  
+ </test>
+ 
+ <test name="Test 3" >
+ 
+  <classes>
+  
+   <class name="com.tests.Test.HomePageTest" /> 
+    
+  </classes>
+  
+ </test> 
+ 
+ <test name="Test 4" >
+ 
+ <classes>
+ 
+ <class name="com.tests.Test.ManageProvidersTest" /> 
+ 
+ </classes>
+ 
+  </test>
+  
+  <test name="Test 5" >
+  
+ <classes>
+ 
+ <class name="com.tests.Test.CreateRpTest" /> 
+ 
+ </classes>
+ 
+  </test>
+  
+</suite>

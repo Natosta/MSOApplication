@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NroshPlus Test Suit]">
+  <test name="Regression Suite(failed)">
+    <classes>
+      <class name="com.tests.Test.CreateRpTest">
+        <methods>
+          <include name="createNewRP"/>
+        </methods>
+      </class> <!-- com.tests.Test.CreateRpTest -->
+      <class name="com.tests.Test.ForgottonDetailsTest">
+        <methods>
+          <include name="retrieveDetails"/>
+        </methods>
+      </class> <!-- com.tests.Test.ForgottonDetailsTest -->
+      <class name="com.tests.Test.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.tests.Test.LoginTest -->
+      <class name="com.tests.Test.InvalidLoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="testInvaidLogin"/>
+        </methods>
+      </class> <!-- com.tests.Test.InvalidLoginTest -->
+      <class name="com.tests.Test.HomePageTest">
+        <methods>
+          <include name="verifyHomePageSources"/>
+        </methods>
+      </class> <!-- com.tests.Test.HomePageTest -->
+    </classes>
+  </test> <!-- Regression Suite(failed) -->
+</suite> <!-- Failed suite [NroshPlus Test Suit] -->
